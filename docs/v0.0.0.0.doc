@@ -1,0 +1,27 @@
+>all whitespace will be ignored. avoid using names with whitespaces
+>line structure
+IDENTIFIER  : VALUE
+
+>Identifiers
+
+[IDENTIFIER]     -     [DECREPTION]
+
+INCLUDE          -  include directory paths for headers. valid directory path. 1 at a time.
+SOURCE           -  paths of .c/.cpp files. valid directory or file path. 1 at a time. if it is directory then all files under this dir will be compailed
+LIB_PATH         -  directory path of .lib/.a/.dll files. valid directory path. 1 at a time.
+LIB              -  name of .lib/.a/.dll file. 1 at a time.
+COMPLIED_SOURCE  -  already compiled output file created by compailer. genearly .o files. valid file path, 1 at a time.
+STANDREED        -  compailer standerd. ex. c++17
+WARNING          -  specify which warnings should be visible. ex. all
+TARGET_NAME      -  name of output exe.
+BIN_DIR          -  name of directory where output files are created.
+COMPAILER        -  compailer CL name. ex. gcc
+c_WARNING        -  command (arg) for specify warning type. ex. -W
+c_STANDRED       -  command (arg) for specify standred of compailer. ex. -std=
+c_OPTIMIZATION   -  specify optimization. ex. -o2
+c_SOURCE         -  command (arg) for specify source files. ex. WHITESPACE
+c_LIBPATH        -  command (arg) for specify lib directory path. ex. -L
+c_LIB            -  command (arg) for specify lib file name. ex. -l
+c_INCLUDE        -  command (arg) for specify include paths of headers. ex. -I
+c_COMPILE_ONLY   -  command (arg) for specify compile only. ex. -c
+c_OUTPUT         -  command (arg) for specify output file path. ex. -o
